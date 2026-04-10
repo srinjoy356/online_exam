@@ -10,7 +10,7 @@ _ENV_FILE = Path(__file__).resolve().parent.parent.parent / ".env"
 
 class Settings(BaseSettings):
     # ── Database ──────────────────────────────────────────
-    DATABASE_URL: str = "postgresql://postgres:April%401904010@db.teskxiipidkvxwpgmtxy.supabase.co:5432/postgres"
+    DATABASE_URL: str = "postgresql://postgres.teskxiipidkvxwpgmtxy:April%401904010@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres"
 
     # ── JWT ───────────────────────────────────────────────
     JWT_SECRET_KEY: str = "changeme"
