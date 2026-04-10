@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://exam-system-backend-jkfh.onrender.com',
+        target: 'https://exam-system-backend-jkfh.onrender.com/api/v1',
         changeOrigin: true,
       },
     },
