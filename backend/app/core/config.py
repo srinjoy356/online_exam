@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     # ── App ───────────────────────────────────────────────
     APP_ENV:      str = "development"
     APP_PORT:     int = 8000
-    CORS_ORIGINS: str = "http://localhost:3000"
+    CORS_ORIGINS: str = "https://exam-system-frontend-4gr2.onrender.com"
 
     model_config = SettingsConfigDict(
         env_file=str(_ENV_FILE),
